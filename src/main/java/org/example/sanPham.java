@@ -16,7 +16,7 @@ public class sanPham {
     public double thue(){
         return 0.1*giaSp;
     }
-    public void xuat() {
+    public xuat() {
         System.out.println("ten sp:  "+this.tenSp);
         System.out.println("gia sp:  "+this.giaSp);
         System.out.println("giam gia sp:  "+this.giamgia);
