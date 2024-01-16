@@ -13,9 +13,9 @@ public class Main {
         System.out.printf("giam gia sp");
         double giamGia = sc.nextDouble();
 
-        sp = sanpham1.tenSp;
-        gia = sanpham1.giaSp;
-        giamGia = sanpham1.giamgia;
+        sanpham1.tenSp = sp;
+        sanpham1.giaSp = gia;
+        sanpham1.giamgia = giamGia;
 
         sanpham1.xuat();
     }
